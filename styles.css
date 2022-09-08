@@ -1,0 +1,408 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* body{
+  /* background-color: #F7F7F7; */
+} */
+
+.search{
+  background: linear-gradient(#f8f8f8, #fff);
+}
+
+.search-bar{
+  position: relative;
+}
+.icon {
+  padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left, url("images/icons8.png") no-repeat right;;
+  background-size: 20px;
+}
+
+.icon2{
+
+  width:25px;
+  height:25px;
+  border-radius: 50%;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #fff;
+  box-shadow: 2px 2px 2px 2px rgb(,0,0);
+  background-color: red;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  top:-20px;
+  right:-20px;
+}
+
+
+/* .icon-rtl {
+  padding-right: 25px;
+  background:
+  background-size: 20px;
+} */
+
+/* .logo{
+  width: 40px;
+  height:40px;
+} */
+
+li, a, input{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #73777B;
+  text-decoration: none;
+}
+
+.home{
+  color:black;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  /* background-color: #F7F7F7; */
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+  color: #000000;
+}
+
+input {
+  padding: 9px 25px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.row{
+  display: flex;
+}
+
+.arrow{
+  position: absolute;
+  right: -100px;
+  top: 50px;
+}
+
+.col1, .col2{
+  display: inline-block;
+  margin: 30px 10%;
+  position: relative;
+}
+
+.bike{
+  width:180px;
+  height: 50px;
+  radius:40%;
+  background-color: #FEECE5;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  color:#EA9455;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+
+.bike p{
+  line-height: 50px;
+  font-weight: 600;
+
+}
+
+.bike img{
+  width:36px;
+  height:36px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  padding: 4px;
+  margin: 7px 5px;
+}
+
+.bike h6{
+  margin: 0 20px;
+}
+
+.big-heading {
+  font-family: "Poppins", sans-serif;
+  color: #212121;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  align-items: center;
+}
+
+.city{
+  color: #FF5B00;
+}
+
+.round{
+  display: inline-block;
+}
+
+.para1{
+  display: block;
+  font-family: "Poppins",sans-serif;
+  font-size: 15px;
+  color: #73777B;
+
+  padding: 20px 0;
+}
+
+.para2{
+  display: inline-block;
+  font-family: "Poppins",sans-serif;
+  font-size: 15px;
+  color: #413F42;
+  padding-left: 10px;
+}
+
+.btn{
+  border: none;
+  border-radius: 10px;
+  background-color: #FF8303;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: "Montserrat",sans-serif;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.5s;
+  padding: 18px 30px;
+}
+
+.btn1{
+  color: #ffffff;
+}
+
+.btn1:hover{
+  background-color: #FF5B00;
+}
+
+.order-button {
+  margin: 5% 3% 5% 0;
+}
+
+.rounded-button{
+  width:50px;
+  height: 50px;
+  background: #fff;
+  color:#FF8303;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%
+}
+.col2{
+  border-radius: 10px;
+  background-image: url("images/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 350px;
+  height:500px;
+}
+
+/* .col2 img{
+  width: 100%;
+  height: 100%;
+  z-index:1000;
+} */
+.card-wrapper{
+  width: 150%;
+  height: 100%;
+  margin-left: -100px;
+  margin-top: 30px;
+}
+
+.card{
+  height: 200px;
+  width: 180px;
+  background: #fff;
+  border-radius: 20px;
+  margin: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.imgWrapper{
+  position: absolute;
+  top: -40px;
+
+  /* transform: scale(0.9); */
+  /* height: 100% */
+}
+.imgWrapper img{
+  align-items: center;
+  height: 130px;
+}
+.arrows{
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-content: center; */
+  width: 100%;
+}
+.text{
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+}
+.black{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #000;
+  color: white;
+  font-weight: bolder;
+  /* text-align: center; */
+  margin: 0 10px 0 50px;
+  padding: 7px;
+}
+
+.white{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  /* margin-bottom: -50px; */
+  color: black;
+  font-weight: bolder;
+  /* text-align: center; */
+  padding: 7px;
+  box-shadow: 2px 1px 3px rgb(0, 0, 0, 0.1);
+  margin: 0 50px 0 10px;
+}
+
+h3{
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #2C2E43;
+}
+
+.text p{
+  font-family: "Montserrat", sans serif;
+  font-weight:bold;
+  font-size: 0.7em;
+  line-height: 1.5;
+  color: grey;
+  margin-top: 5px
+}
+
+h6{
+  font-family: "Montserrat", sans serif;
+  font-weight:bold;
+  font-size: 0.7em;
+  margin-top: 4px;
+}
+.text h6 span{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 0.6em;
+  color: red;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10% 10%;
+  /* background-color: #F7F7F7; */
+}
+
+.Bcard{
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background-color: #F6F6F6;
+  border-radius: 10%;
+  position: relative;
+}
+
+.Bcard .fruit img{
+  width: 75%;
+  height: 79%;
+  position:absolute;
+  left:-65px;
+  top:-65px;
+}
+
+.Bcard .cart img{
+  position:absolute;
+  top:20px;
+  right:15px;
+}
+
+.Bcard .add{
+  width:30px;
+  height:30px;
+  border-radius: 20%;
+  background-color: #211D3E;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+  color:#fff;
+  align-items: center;
+  padding: 5px;
+  position:absolute;
+  bottom: 20px;
+  right:20px;
+}
+
+.paragraph{
+  font-family: "Poppins",sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #100F0F;
+  font-size: 0.9em;
+  position: absolute;
+  right:40px;
+  top:70px;
+}
+
+.table{
+  position: absolute;
+  bottom:20px;
+  right:120px;
+}
+td span{
+  font-family: "Poppins",sans-serif;
+  font-weight: bold;
+  color: #100F0F;
+  font-size: 1.2em;
+}
+td p{
+  display: inline-block;
+}
